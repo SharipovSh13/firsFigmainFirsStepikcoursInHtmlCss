@@ -38,7 +38,9 @@ a {
 
 }
 .sectionTwo{
-  margin-top:90px
+  padding:50px;
+
+  background-color: #dfdfdfff;
 }
 
 .sectionTwo h1{
@@ -62,7 +64,7 @@ a {
   width:100%
 }
 .heroBlockTwo{
-margin-top:150px;
+
   position:relative;
    text-align: center;
 }
@@ -127,4 +129,54 @@ letter-spacing:1px;
 
 
 
+}
+#team{
+
+    font-size:54px;
+  width:fit-content;
+  margin:auto;
+  color:#007765;
+  letter-spacing:2px
+}
+
+.teamSection{
+   padding:50px;
+
+  background-color: #dfdfdfff;
+}
+
+.mainTeamItem1{
+
+
+  width:60%;
+  margin:auto;
+  margin-top:20px;
+  display:flex;
+  padding:10px;
+  justify-content:space-around;
+
+}
+.teamItem{
+  text-align:center;
+
+}
+.teamItem h1{
+  color:#007765
+}
+.allTeam{
+display:flex;
+flex-direction:column;
+gap:30px;
+}
+
+footer{
+background-color:#333333;
+text-align:center;
+padding:20px
+}
+footer p{
+  margin-top:50px;
+  color:white;
+  width:23%;
+  margin:auto;
 }
