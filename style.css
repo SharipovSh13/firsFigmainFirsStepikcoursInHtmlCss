@@ -4,13 +4,14 @@ header {
 }
 .mainDivHeader {
   position:relative
-  width: 90%;
+  width: fit-content;
+  margin-left:350px
 }
 
 .headerLinks {
   position:absolute;
   top:40px;
-  right:100px;
+  right:350px;
   font-size: 22px;
   color: white;
 }
@@ -18,7 +19,9 @@ a {
   text-decoration: none;
   color: white;
 }
-
+.heroBlockFirst{
+  position:relative
+}
 .firstHeroImg{
   width:100%
 
@@ -27,11 +30,32 @@ a {
 .firstHeroH1{
   color:white;
   font-size:72px;
-  position:relative;
+  position:absolute;
   width:fit-content;
- letter-spacing: 5px;
-
-  top:-445px;
+  letter-spacing: 5px;
+  top:200px;
   left:35%;
 
 }
+.sectionTwo{
+  margin-top:90px
+}
+
+.sectionTwo h1{
+  font-size:72px;
+  width:fit-content;
+  margin:auto;
+  color:#007765
+
+}
+.sectionTwo p{
+  font-size:32px;
+  width:55%;
+  margin:auto;
+  padding:5px;
+  margin-top:35px;
+  margin-bottom:15px
+
+
+}
+
