@@ -58,4 +58,22 @@ a {
 
 
 }
+.heroBlockTwo img{
+  width:100%
+}
+.heroBlockTwo{
+margin-top:150px;
+  position:relative;
+   text-align: center;
+}
 
+.heroBlockTwo p{
+  width:43%;
+  color:white;
+  font-size:48px;
+  position:absolute;
+  top:100px;
+  left:25%;
+  letter-spacing:1px;
+
+}
